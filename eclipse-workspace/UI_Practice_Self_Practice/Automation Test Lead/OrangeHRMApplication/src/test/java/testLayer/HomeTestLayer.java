@@ -1,0 +1,19 @@
+package testLayer;
+
+import pageLayer.HomePage;
+import pageLayer.LoginPage;
+
+public class HomeTestLayer {
+
+	public static void main(String[] args) {
+		
+		LoginPage loginPage=new LoginPage();
+		loginPage.loginFunctionality("ashok", "ashok123");
+		
+		
+		HomePage homePage=new HomePage();
+		homePage.valiadtehomePage();
+		
+	}
+
+}
