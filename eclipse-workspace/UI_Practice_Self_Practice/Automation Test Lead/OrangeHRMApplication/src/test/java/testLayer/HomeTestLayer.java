@@ -1,5 +1,6 @@
 package testLayer;
 
+import pageLayer.AddnewMember;
 import pageLayer.HomePage;
 import pageLayer.LoginPage;
 
@@ -14,6 +15,8 @@ public class HomeTestLayer {
 		HomePage homePage=new HomePage();
 		homePage.valiadtehomePage();
 		
+		AddnewMember newmember= new AddnewMember();
+		newmember.newMembaer();
 	}
 
 }
